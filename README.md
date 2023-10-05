@@ -4,7 +4,9 @@ Sebuah bot twitter untuk mendeteksi adanya gempa terbaru.
 
 ## Example
 
-[screenshoot bot](assets/screenshoot/1.jpg)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/galanghanaf/gempa-twitter-bot/main/assets/screenshoot/1.jpg" alt="Node.js logo" height="140">
+</p>
 
 ## Attention
 
@@ -12,8 +14,9 @@ Tested on PHP 8.1.10 and NodeJS 18.18.0 for now only support indonesia language 
 
 ## Configuration
 
-- Setup database `application/config/database.php`
-- Mengubah url di `application/config/config.php`
+- Setup Database `application/config/database.php`
+- Mengubah URL `application/config/config.php`
+- Install Dependencies `cd assets/bmkg/earthquake` kemudian `npm install`
 - Isi semua key ENV `assets/bmkg/earthquake`
 - Done
 
