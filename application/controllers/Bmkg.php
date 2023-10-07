@@ -22,7 +22,7 @@ class Bmkg extends CI_Controller
             $data_earthquake['Infogempa']['gempa']['Lintang'] . " (Lintang Selatan), " .
             $data_earthquake['Infogempa']['gempa']['Bujur'] . " (Bujur Timur). Memiliki kekuatan magnitudo " .
             strtoupper($data_earthquake['Infogempa']['gempa']['Magnitude']) . " dengan kedalaman " .
-            strtoupper($data_earthquake['Infogempa']['gempa']['Kedalaman']) . ". " .
+            strtoupper($data_earthquake['Infogempa']['gempa']['Kedalaman']) . ". Untuk Lokasi " .
             $data_earthquake['Infogempa']['gempa']['Wilayah'] . ". Sumber BMKG.";
 
         $insert_data = [
