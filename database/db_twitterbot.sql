@@ -37,23 +37,22 @@ CREATE TABLE IF NOT EXISTS `tbl_earthquake` (
   PRIMARY KEY (`id_earthquake`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- Dumping data for table db_twitterbot.tbl_earthquake: ~2 rows (approximately)
+-- Dumping data for table db_twitterbot.tbl_earthquake: ~1 rows (approximately)
 INSERT INTO `tbl_earthquake` (`id_earthquake`, `tanggal`, `jam`, `coordinates`, `lintang`, `bujur`, `magnitude`, `kedalaman`, `wilayah`, `potensi`, `dirasakan`, `shakemap`, `create_date`) VALUES
-	('04OKT2023185422WIB', '04 Okt 2023', '18:54:22 WIB', '-9.10,124.93', '9.10 LS', '124.93 BT', '3.0', '13 km', 'Pusat gempa berada di darat 6 Km Timur Laut Belu', 'Gempa ini dirasakan untuk diteruskan pada masyarakat', 'II-III Belu', '20231004185422.mmi.jpg', '2023-10-05 00:43:55'),
-	('05OKT2023030703WIB', '05 Okt 2023', '03:07:03 WIB', '-0.80,135.85', '0.80 LS', '135.85 BT', '4.1', '14 km', 'Pusat gempa berada didarat 15 km Tenggara Supiori', 'Gempa ini dirasakan untuk diteruskan pada masyarakat', 'II - III Kab. Supiori', '20231005030703.mmi.jpg', '2023-10-05 00:43:55');
+	('11OKT2023032024WIB', '11 Okt 2023', '03:20:24 WIB', '-6.71,129.89', '6.71 LS', '129.89 BT', '5.0', '181 km', '210 km BaratLaut TANIMBAR', 'Tidak berpotensi tsunami', '-', '20231011032323.mmi.jpg', '2023-10-10 22:41:10');
 
 -- Dumping structure for table db_twitterbot.tbl_earthquaketweet
 CREATE TABLE IF NOT EXISTS `tbl_earthquaketweet` (
   `id_earthquake` varchar(100) NOT NULL,
   `earthquaketweet` text NOT NULL,
+  `earthquakeimg` varchar(100) NOT NULL,
   `create_date` timestamp NOT NULL DEFAULT current_timestamp(),
   PRIMARY KEY (`id_earthquake`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- Dumping data for table db_twitterbot.tbl_earthquaketweet: ~2 rows (approximately)
-INSERT INTO `tbl_earthquaketweet` (`id_earthquake`, `earthquaketweet`, `create_date`) VALUES
-	('04OKT2023185422WIB', 'Gempa Bumi terjadi pada 04 Okt 2023 18:54:22 WIB, di kordinat 9.10 LS (Lintang Selatan), 124.93 BT (Bujur Timur), dengan kedalaman 13 KM. Pusat gempa berada di darat 6 Km Timur Laut Belu. Sumber BMKG.', '2023-10-05 00:44:44'),
-	('05OKT2023030703WIB', 'Gempa Bumi terjadi pada 05 Okt 2023 03:07:03 WIB, di kordinat 0.80 LS (Lintang Selatan), 135.85 BT (Bujur Timur). Memiliki kekuatan magnitudo 4.1 dengan kedalaman 14 KM. Pusat gempa berada didarat 15 km Tenggara Supiori. Sumber BMKG.', '2023-10-05 00:44:44');
+-- Dumping data for table db_twitterbot.tbl_earthquaketweet: ~1 rows (approximately)
+INSERT INTO `tbl_earthquaketweet` (`id_earthquake`, `earthquaketweet`, `earthquakeimg`, `create_date`) VALUES
+	('11OKT2023032024WIB', 'Gempa Bumi terjadi pada 11 Okt 2023 03:20:24 WIB, di kordinat 6.71 LS (Lintang Selatan), 129.89 BT (Bujur Timur). Memiliki kekuatan magnitudo 5.0 dengan kedalaman 181 KM. Untuk Lokasi 210 km BaratLaut TANIMBAR. Sumber BMKG.', '20231011032323.mmi.jpg', '2023-10-10 22:41:10');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
