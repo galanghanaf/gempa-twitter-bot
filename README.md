@@ -8,9 +8,9 @@ Sebuah bot twitter untuk mendeteksi adanya gempa terbaru yang bersumber dari BMK
     <img src="https://raw.githubusercontent.com/galanghanaf/gempa-twitter-bot/main/assets/img/2.jpg" alt="twitter-bot" height="450">
 </p>
 
-## Spe
+## Attention
 
-PHP 8.1.10 and NodeJS 18.18.0.
+Tested in PHP 8.1.10 and NodeJS 18.18.0.
 
 ## Configuration
 
