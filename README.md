@@ -16,7 +16,7 @@ Tested in PHP 8.1.10 and NodeJS 18.18.0.
 
 - Database Setup `application/config/database.php`
 - Change URL `application/config/config.php`
-- Install Module `cd bot/twitter` kemudian `npm install`
+- Install Module `cd bot/twitter` after that `npm install`
 - Rename `bot/twitter/.env.example` to `bot/twitter/.env`
 - Fill every singgle file in `bot/twitter/.env`
 - That's it, done.
