@@ -17,6 +17,7 @@ class Bmkg extends CI_Controller
         $key_earthquake = str_replace(':', '', $data_earthquake['Infogempa']['gempa']['Tanggal'] . $data_earthquake['Infogempa']['gempa']['Jam']);
         $id_earthquake = strtoupper(str_replace(' ', '', $key_earthquake));
 
+        $earthquakeimg = $data_earthquake['Infogempa']['gempa']['Shakemap'];
         $earthquaketweet = "Gempa Bumi terjadi pada " . $data_earthquake['Infogempa']['gempa']['Tanggal'] . " " .
             $data_earthquake['Infogempa']['gempa']['Jam'] . ", di kordinat " .
             $data_earthquake['Infogempa']['gempa']['Lintang'] . " (Lintang Selatan), " .
@@ -45,6 +46,7 @@ class Bmkg extends CI_Controller
             $data = [
                 "id_earthquake" =>  $id_earthquake,
                 "earthquaketweet" => $earthquaketweet,
+                "earthquakeimg" => $earthquakeimg,
 
             ];
             $this->db->insert('tbl_earthquaketweet', $data);

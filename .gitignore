@@ -30,3 +30,11 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 /tests/tests/
 /tests/results/
+
+## bot/twitter
+/bot/twitter/.env
+/bot/twitter/node_module/
+
+## bot/discord
+/bot/discord/.env
+/bot/discord/node_module/
