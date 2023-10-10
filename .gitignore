@@ -33,8 +33,8 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 ## bot/twitter
 /bot/twitter/.env
-/bot/twitter/node_module/
+/bot/twitter/node_modules/
 
 ## bot/discord
 /bot/discord/.env
-/bot/discord/node_module/
+/bot/discord/node_modules/
