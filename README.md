@@ -5,7 +5,7 @@ Sebuah bot twitter untuk mendeteksi adanya gempa terbaru yang bersumber dari BMK
 ## Example
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/galanghanaf/gempa-twitter-bot/main/assets/img/2.jpg" alt="twitter-bot" height="140">
+    <img src="https://raw.githubusercontent.com/galanghanaf/gempa-twitter-bot/main/assets/img/2.jpg" alt="twitter-bot" height="400">
 </p>
 
 ## Attention
