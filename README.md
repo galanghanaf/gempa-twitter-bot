@@ -5,17 +5,18 @@ Sebuah bot twitter untuk mendeteksi adanya gempa terbaru yang bersumber dari BMK
 ## Example
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/galanghanaf/gempa-twitter-bot/main/assets/img/2.jpg" alt="twitter-bot" height="400">
+    <img src="https://raw.githubusercontent.com/galanghanaf/gempa-twitter-bot/main/assets/img/2.jpg" alt="twitter-bot" height="450">
 </p>
 
-## Attention
+## Spe
 
-Tested on PHP 8.1.10 and NodeJS 18.18.0.
+PHP 8.1.10 and NodeJS 18.18.0.
 
 ## Configuration
 
-- Setup Database `application/config/database.php`
-- Mengubah URL `application/config/config.php`
-- Install Dependencies `cd bot/twitter` kemudian `npm install`
-- Isi semua key ENV `bot/twitter/.env`
-- Done.
+- Database Setup `application/config/database.php`
+- Change URL `application/config/config.php`
+- Install Module `cd bot/twitter` kemudian `npm install`
+- Rename `bot/twitter/.env.example` to `bot/twitter/.env`
+- Fill every singgle file in `bot/twitter/.env`
+- That's it, done.
