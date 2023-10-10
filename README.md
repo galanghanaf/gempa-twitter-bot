@@ -10,7 +10,7 @@ Sebuah bot twitter untuk mendeteksi adanya gempa terbaru yang bersumber dari BMK
 
 ## Attention
 
-Tested on PHP 8.1.10 and NodeJS 18.18.0 for now only support indonesia language not in english. i need more time for translate about documentation.
+Tested on PHP 8.1.10 and NodeJS 18.18.0.
 
 ## Configuration
 
