@@ -1,6 +1,6 @@
 # Gempa Twitter Bot
 
-Sebuah bot twitter untuk mendeteksi adanya gempa terbaru yang bersumber dari BMKG.
+Sebuah bot twitter untuk mendeteksi adanya gempa bumi terbaru yang terjadi di Indonesia, berdasarkan data yang diambil secara berkala dari BMKG.
 
 ## Example
 
