@@ -5,7 +5,7 @@ Sebuah bot twitter untuk mendeteksi adanya gempa bumi terbaru yang terjadi di In
 ## Example
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/galanghanaf/gempa-twitter-bot/main/assets/img/twitter.jpg" alt="twitter-bot" height="450">
+    <img src="https://raw.githubusercontent.com/galanghanaf/gempa-twitter-bot/main/assets/img/twitter.png" alt="twitter-bot" height="450">
 </p>
 
 ## Configuration
