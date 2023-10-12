@@ -16,6 +16,6 @@ Tested in PHP 8.1.10 and NodeJS 18.18.0.
 - Change URL `application/config/config.php`
 - Install Module `cd bot/twitter` after that `npm install`
 - Rename `bot/twitter/.env.example` to `bot/twitter/.env`
-- Fill every singgle file in `bot/twitter/.env`
+- Fill every singgle key in `bot/twitter/.env`
 - Run `node index.js`
 - That's it, done.
